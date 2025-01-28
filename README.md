@@ -1,7 +1,7 @@
  # vhregression
 
 O **vhregression** é um pacote que tem uma gama de modelos de regressão linear e não linear.
-# local de desistino dos arquivos, no exemplo os resultado é salvo na pasta raiz do disco local c.
+ local de desistino dos arquivos, no exemplo os resultado é salvo na pasta raiz do disco local c.
 setwd("C:/") 
 #instalar pacote
 #verificar versão mais atual e modificar o numero no link abaix, exemplo a atual é 05.
@@ -26,6 +26,10 @@ modelos_selecionados <- c( "Logistic", "Gompertz", "MMF", "Weibull", "Exponentia
                            "Hyperbolic", "Heat Capacity", "Rational", "Richards","Asymptotic","Harris","Brody","Wilmink")
 #executa a analise
 analise_completa(dados, modelos_selecionados)
+ 
+
+ 
+  
  
 
  
